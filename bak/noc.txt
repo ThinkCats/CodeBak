@@ -1,0 +1,15 @@
+1.安装node.js
+2.删除自带的module包。
+3.执行命令:npm install -d
+4.修改配置services内容:
+{
+	"nodename": "noc_wanglei",
+	"tcp_port": 2900,
+	"http_port": 2901,
+	"pwd": "123456",
+	"wb_host": "localhost",
+	"wb_port": 8081,
+	"wb_path": "/MessageProcess/services/EventForwarder",
+	"log_monitor": "",
+	"log_server": ""
+}
